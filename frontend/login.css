@@ -1,0 +1,68 @@
+  body {
+      font-family: Arial, sans-serif;
+      background: skyblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 320px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .role-select {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+    .role-select button {
+      width: 48%;
+      padding: 8px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background: #bdc3c7;
+      color: black;
+    }
+
+    .role-select button.active {
+      background: #3498db;
+      color: white;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button.login-btn {
+      width: 100%;
+      padding: 10px;
+      background: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button.login-btn:hover {
+      background: #2980b9;
+    }
+     .footer {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 14px;
+    }

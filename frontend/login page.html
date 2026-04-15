@@ -8,8 +8,30 @@
       <meta name="keywords" content="HTML, CSS, JavaScript">
       <meta name="Author" content="Dinesh Kadam">
       <meta name="description" content="Library Management System Login page">
+      <link rel="stylesheet" href="login.css">
+      <script src="login.js" defer></script>
     </head>
     <body>
       
+      <div class="login-container">
+        <h1> Wel~Come....</h1>
+  <h2>Login</h2>
+
+  <div class="role-select">
+    <button id="studentBtn" class="active" onclick="selectRole('student')">Student</button>
+    <button id="adminBtn" onclick="selectRole('admin')">Admin</button>
+  </div>
+
+  <form onsubmit="login(event)">
+    <input type="text" id="username" placeholder="Username" required>
+    <input type="password" id="password" placeholder="Password" required>
+
+    <button type="submit" class="login-btn">Login</button>
+  </form>
+
+  <div class="footer">
+    <p>Don't have an account? Register</p>
+  </div>
+</div>
     </body>
   </html>
